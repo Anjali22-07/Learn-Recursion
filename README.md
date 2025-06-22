@@ -84,6 +84,9 @@ I'm Anjali Singh, an MCA graduate focused on backend development and data struct
 This repo is part of my preparation for interviews and real-world backend challenges.
 
 ``` https://www.linkedin.com/in/anjali-singh-061685287/```
+
+---
+
 🌟 Found it helpful?
 If this repository helped you or you’re on a similar journey, feel free to ⭐️ the repo — and let’s connect!
 Let me know if you'd like a small badge section (for Java, DSA, etc.) or a visual diagram of a recursion call stack for extra authenticity.

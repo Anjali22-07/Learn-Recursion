@@ -1,0 +1,48 @@
+ Recurstion:
+A function calling itself with different parameters and a halting condition or base case to terminate the infinite loop.
+
+--> In recursion, we solve a bigger problem by solving smaller sub problems.
+
+________________________________________________________________________________________________________________________________________________________________________________
+
+        Function --
+                  |
+                  Problem --
+                           |
+                           Sub-Problem
+
+______________________________________________________________________________________________________________________________________________________________________________
+
+The Recursion Spell : 
+
+1. Identify the samller problem --> let recursion solve it 
+
+2. Self-Work --> Do your Share of Work
+
+3. Base Case--> Identify it--> Smallest problem for which the answer is very obvious 
+
+-- Something that needs to be recognised is: we need to do Recursive work first or Self work First.
+
+_____________________________________________________________________________________________________________________________________________________________________________
+
+Working of a Recursive Function :
+
+methodName(N parameters){
+ {
+    if(halt condition){
+           return result;
+     }
+   return methodName(N parameters)
+  }
+}
+ 
+____________________________________________________________________________________________________________________________________________________________________________
+
+Why do we need recursion?
+--To solve complex problems easily 
+--Simplifies code, helps in building logic easily.
+
+______________________________________________________________________________________________________________________________________________________________________________
+
+
+

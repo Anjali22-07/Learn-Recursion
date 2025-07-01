@@ -42,6 +42,35 @@ Why do we need recursion?
 --To solve complex problems easily 
 --Simplifies code, helps in building logic easily.
 
+______________________________________________________________________________________________________________________________
+
+✅ 1. Tail Recursion
+Definition: The recursive call is the last operation in the function.
+
+No computation after the recursive call.
+
+Optimizable by compilers using Tail Call Optimization (TCO) (Java doesn't support TCO, but many functional languages do).
+
+example:
+void tailRecursion(int n) {
+    if (n == 0) return;
+    System.out.println(n);      // Operation before call
+    tailRecursion(n - 1);       // Recursive call at the end (tail)
+}
+
+
+✅ 2. Head Recursion
+Definition: The recursive call happens before any other operation.
+
+The function waits for the recursive call to return before continuing
+
+example:
+void headRecursion(int n) {
+    if (n == 0) return;
+    headRecursion(n - 1);      // Recursive call first
+    System.out.println(n);     // Operation after call
+}
+
 ______________________________________________________________________________________________________________________________________________________________________________
 
 

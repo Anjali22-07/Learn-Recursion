@@ -1,4 +1,4 @@
- Recurstion:
+ Recurtion:
 A function calling itself with different parameters and a halting condition or base case to terminate the infinite loop.
 
 --> In recursion, we solve a bigger problem by solving smaller sub problems.
